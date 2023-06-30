@@ -9,6 +9,6 @@ import App from './App';
 // expect(linkElement).toBeInTheDocument();　リンクエレメントの中にドキュメントは存在しているかという処理
 test('renders learn react link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/Login form/i);
   expect(linkElement).toBeInTheDocument();
 });

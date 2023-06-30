@@ -10,7 +10,7 @@ function App() {
     <div className="Container app-container" role="parent">
     <Row>
       <Col>
-        <h1>Reactでテストチュートリアル</h1>
+        <h1>Login form</h1>
       </Col>
     </Row>
     <Row>
@@ -19,7 +19,7 @@ function App() {
       </Col>
     </Row>
   </div>
-  );
-}
+  )
+};
 
 export default App;
